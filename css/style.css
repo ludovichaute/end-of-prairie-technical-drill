@@ -9,25 +9,74 @@ body{
 }
 
 #stage{
-    background: url("../images/css_animation_exercise_1.png") no-repeat center center;
+    background: url("../images/css_animation_exercise_4.png") no-repeat center center;
     background-size: cover;
     height: 600px;
     width: 600px;
 }
-@keyframes hero {
-    0%   {left: 10px;}
-  100%   {left: 500px;}
-}
-
 #hero{
   position: relative;
   width: 75px;
   height: 75px;
   border: dashed 1px red;
-  top: 10px;
-  left: 10px;
+  top: 19px;
+  left: 19px;
   animation-name: hero;
-  animation-duration: 5s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
-  animation-delay: 2s;
+  animation-timing-function: linear;
+}
+@keyframes hero {
+  0% {
+      left: 19px;
+      border: dashed 1px red;
+      border-radius: 0%;
+    }
+  20% {
+        top: 19px;
+        left: 500px;
+        border: dashed 1px red;
+        border-radius: 0%;
+  }
+  40% {
+      top: 200px;
+      left: 500px;
+      transform: rotate(0deg);
+      border: dashed 1px red;
+      border-radius: 0%;
+  }
+  41%, 50% {
+      top: 200px;
+      left: 270px;
+      transform: rotate(45deg);
+      border: dashed 1px red;
+      border-radius: 0%;
+  }
+  55% {
+    top: 200px;
+    left: 19px;
+    transition: rotate(0deg);
+    border: dashed 1px blue;
+    border-radius: 0%;
+    background: none;
+    transform: scale(1);
+  }
+  75%{
+    top: 480px;
+    left: 480px;
+    transition: rotate(0deg);
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(#FBDA61, #F76B1c);
+    transform: scale(2);
+  }
+  100%{
+    top: 480px;
+    left: 480px;
+    transition: rotate(0deg);
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(#FBDA61, #F76B1c);
+    transform: scale(2);
+  }
 }
