@@ -9,7 +9,7 @@ body{
 }
 
 #stage{
-    background: url("../images/css_animation_exercise_4.png") no-repeat center center;
+    /* background: url("../images/css_animation_exercise_4.png") no-repeat center center; */
     background-size: cover;
     height: 600px;
     width: 600px;
