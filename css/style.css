@@ -9,16 +9,26 @@ body{
 }
 
 #stage{
-    background: url("../images/css_animation_exercise_stage.png") no-repeat center center;
+    background: url("../images/css_animation_exercise_1.png") no-repeat center center;
     background-size: cover;
     height: 600px;
     width: 600px;
 }
-.hero{
+@keyframes hero {
+    0%   {left: 10px;}
+  100%   {left: 500px;}
+}
+
+#hero{
   position: relative;
   width: 75px;
   height: 75px;
   border: dashed 1px red;
   top: 10px;
   left: 10px;
+  animation-name: hero;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-direction: alternate;
 }
