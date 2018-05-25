@@ -9,7 +9,7 @@ body{
 }
 
 #stage{
-    /* background: url("../images/css_animation_exercise_4.png") no-repeat center center; */
+    background: url("../images/css_animation_exercise_4.png") no-repeat center center;
     background-size: cover;
     height: 600px;
     width: 600px;
@@ -33,12 +33,16 @@ body{
       border-radius: 0%;
     }
   20% {
-        top: 19px;
-        left: 500px;
-        border: dashed 1px red;
-        border-radius: 0%;
+      width: 74px;
+      height: 73px;
+      top: 19px;
+      left: 500px;
+      border: dashed 1px red;
+      border-radius: 0%;
   }
   40% {
+      width: 74px;
+      height: 73px;
       top: 200px;
       left: 500px;
       transform: rotate(0deg);
@@ -46,6 +50,8 @@ body{
       border-radius: 0%;
   }
   41%, 50% {
+      width: 74px;
+      height: 73px;
       top: 200px;
       left: 270px;
       transform: rotate(45deg);
@@ -53,6 +59,8 @@ body{
       border-radius: 0%;
   }
   55% {
+    width: 75px;
+    height: 75px;
     top: 200px;
     left: 19px;
     transition: rotate(0deg);
@@ -62,6 +70,8 @@ body{
     transform: scale(1);
   }
   75%{
+    width: 75px;
+    height: 75px;
     top: 480px;
     left: 480px;
     transition: rotate(0deg);
@@ -71,6 +81,8 @@ body{
     transform: scale(2);
   }
   100%{
+    width: 75px;
+    height: 75px;
     top: 480px;
     left: 480px;
     transition: rotate(0deg);
