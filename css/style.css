@@ -16,6 +16,7 @@ body{
 }
 #hero{
   position: relative;
+  box-sizing: border-box;
   width: 75px;
   height: 75px;
   border: dashed 1px red;
@@ -33,16 +34,12 @@ body{
       border-radius: 0%;
     }
   20% {
-      width: 74px;
-      height: 73px;
       top: 19px;
       left: 500px;
       border: dashed 1px red;
       border-radius: 0%;
   }
   40% {
-      width: 74px;
-      height: 73px;
       top: 200px;
       left: 500px;
       transform: rotate(0deg);
@@ -50,8 +47,6 @@ body{
       border-radius: 0%;
   }
   41%, 50% {
-      width: 74px;
-      height: 73px;
       top: 200px;
       left: 270px;
       transform: rotate(45deg);
@@ -59,8 +54,6 @@ body{
       border-radius: 0%;
   }
   55% {
-    width: 73px;
-    height: 73px;
     top: 200px;
     left: 19px;
     transition: rotate(0deg);
@@ -70,8 +63,6 @@ body{
     transform: scale(1);
   }
   75%{
-    width: 75px;
-    height: 75px;
     top: 480px;
     left: 480px;
     transition: rotate(0deg);
@@ -81,8 +72,6 @@ body{
     transform: scale(2);
   }
   100%{
-    width: 75px;
-    height: 75px;
     top: 480px;
     left: 480px;
     transition: rotate(0deg);
