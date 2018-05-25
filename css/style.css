@@ -59,8 +59,8 @@ body{
       border-radius: 0%;
   }
   55% {
-    width: 75px;
-    height: 75px;
+    width: 73px;
+    height: 73px;
     top: 200px;
     left: 19px;
     transition: rotate(0deg);
