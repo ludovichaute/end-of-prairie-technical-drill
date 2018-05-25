@@ -1,0 +1,11 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+#stage{
+    background: url("../images/css_animation_exercise_stage.png") no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    width: 800px;
+}
